@@ -32,7 +32,7 @@
    <string>Music</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="resource.qrc">
+   <iconset>
     <normaloff>:/music.ico</normaloff>:/music.ico</iconset>
   </property>
   <property name="windowOpacity">
@@ -179,7 +179,7 @@
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="resource.qrc">
+       <iconset>
         <normaloff>:/loop.ico</normaloff>:/loop.ico</iconset>
       </property>
       <property name="iconSize">
@@ -208,7 +208,7 @@
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="resource.qrc">
+       <iconset>
         <normaloff>:/down.ico</normaloff>:/down.ico</iconset>
       </property>
       <property name="iconSize">
@@ -231,7 +231,7 @@
        </rect>
       </property>
       <property name="icon">
-       <iconset resource="resource.qrc">
+       <iconset>
         <normaloff>:/on.ico</normaloff>
         <normalon>:/off.ico</normalon>:/on.ico</iconset>
       </property>
@@ -264,7 +264,7 @@
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="resource.qrc">
+       <iconset>
         <normaloff>:/up.ico</normaloff>:/up.ico</iconset>
       </property>
       <property name="iconSize">
@@ -290,7 +290,7 @@
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="resource.qrc">
+       <iconset>
         <normaloff>:/openFile.ico</normaloff>:/openFile.ico</iconset>
       </property>
       <property name="iconSize">
@@ -319,7 +319,7 @@
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="resource.qrc">
+       <iconset>
         <normaloff>:/notlike.ico</normaloff>
         <normalon>:/like.ico</normalon>:/notlike.ico</iconset>
       </property>
@@ -491,7 +491,7 @@ outline:0px;
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="resource.qrc">
+       <iconset>
         <normaloff>:/018dict.ico</normaloff>:/018dict.ico</iconset>
       </property>
       <property name="iconSize">
@@ -683,8 +683,6 @@ outline:0px;
   <tabstop>playMode</tabstop>
   <tabstop>volumeSlider</tabstop>
  </tabstops>
- <resources>
-  <include location="resource.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

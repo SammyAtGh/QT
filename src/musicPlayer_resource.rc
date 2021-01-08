@@ -1,6 +1,6 @@
 #include <windows.h>
 
-IDI_ICON1	ICON	DISCARDABLE	"D:\\D_Desktop\\Qt-MusicPlayer-Simaple-master\\src\\music.ico"
+IDI_ICON1	ICON	DISCARDABLE	"D:\\githubQT\\src\\music.ico"
 
 VS_VERSION_INFO VERSIONINFO
 	FILEVERSION 0,0,0,0
