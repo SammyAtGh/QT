@@ -1,0 +1,18 @@
+QSlider{border:none; background-color:transparent;border-radius: 3px; }
+QSlider::handle:horizontal{
+background: transparent;
+border: none;
+width:16px;
+background-color:rgb(255,255,255);
+margin:-5px 0px -5px 0px;
+border-radius:8px;
+}
+QSlider::groove:horizontal{
+height:6px;background-color:rgb(219,219,219);border-radius:3px;
+}
+QSlider::add-page:horizontal{
+background-color:rgb(219,219,219);border-radius:3px;
+}
+QSlider::sub-page:horizontal{
+background-color:rgb(26,217,110);border-radius:3px;
+}

@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pause.ico</file>
+        <file>play.ico</file>
+        <file>down.ico</file>
+        <file>off.ico</file>
+        <file>on.ico</file>
+        <file>up.ico</file>
+        <file>music.ico</file>
+        <file>tableWidget.qss</file>
+        <file>volumeSlider.qss</file>
+        <file>progressSlider.qss</file>
+        <file>openFile.ico</file>
+        <file>add1.ico</file>
+        <file>add2.ico</file>
+        <file>add22.ico</file>
+        <file>单曲循环.ico</file>
+        <file>顺序播放.ico</file>
+        <file>随机播放.ico</file>
+        <file>loop.ico</file>
+        <file>random.ico</file>
+        <file>single.ico</file>
+        <file>like.ico</file>
+        <file>notlike.ico</file>
+        <file>search.ico</file>
+        <file>add.ico</file>
+        <file>addWord.ico</file>
+        <file>left.ico</file>
+        <file>leftgray.ico</file>
+        <file>right.ico</file>
+        <file>rightgray.ico</file>
+        <file>searchLine.ico</file>
+        <file>searchLine.png</file>
+        <file>collect.png</file>
+        <file>collect2.ico</file>
+        <file>018dict.ico</file>
+        <file>018dict2.ico</file>
+        <file>colect_2.ico</file>
+        <file>colect_3.ico</file>
+        <file>018cidian.ico</file>
+        <file>Refresh.ico</file>
+        <file>close.png-2021-01-05-21-55-44-191.ico</file>
+    </qresource>
+    <qresource prefix="/QSS"/>
+    <qresource prefix="/Qss"/>
+    <qresource prefix="/qss"/>
+</RCC>

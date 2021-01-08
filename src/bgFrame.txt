@@ -1,0 +1,66 @@
+QFrame{background-color: rgb(255, 255, 255);border-radius: 15px; }
+QFrame{background-color: rgb(0,159,168);border-radius: 15px; }
+tableWidget{background-color: rgb(255, 255, 255);border-radius: 10px;
+}
+###################################
+QTabWidget::pane
+{
+	top:20px;
+	border:none;
+}
+QTabBar::tab
+{
+	color:#333333;
+	background:transparent;	
+	font-family:"微软雅黑";
+	font-size:14px;	
+	padding-left:-9px;
+	padding-right:-9px;
+	width:75px;
+	height:30px;
+	margin-left:0px;
+	margin-right:0px;
+} 
+QTabBar::tab:selected  //选中标签的状态
+{
+	color:#618BE5;
+	background:transparent;	
+	font-family:"微软雅黑";
+	font-size:14px;	
+	border-bottom:2px solid #618BE5;  //标签下部的样式
+}
+QTabBar::tab:hover   //鼠标移到标签上的状态
+{
+	color:#618BE5;
+	background:transparent;	
+	font-family:"微软雅黑";
+	font-size:14px;	
+}
+QTabWidget::tab-bar {
+    alignment: left;  
+	top:10px;
+	left:30px;	
+} 
+#detailWgt, #appealReasonWgt
+{
+	border:none;
+}
+#############################
+QSlider{border:none; background-color:transparent;border-radius: 3px; }
+QSlider::handle:horizontal{
+background: transparent;
+border: none;
+width:16px;
+background-color:rgb(255,255,255);
+margin:-5px 0px -5px 0px;
+border-radius:8px;
+}
+QSlider::groove:horizontal{
+height:6px;background-color:rgb(219,219,219);border-radius:3px;
+}
+QSlider::add-page:horizontal{
+background-color:rgb(219,219,219);border-radius:3px;
+}
+QSlider::sub-page:horizontal{
+background-color:rgb(26,217,110);border-radius:3px;
+}
