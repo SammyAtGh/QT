@@ -299,7 +299,8 @@ void reportWidget::getHistoryData(){
     if(ui->charViewBoxPlot->layout()==NULL){
         ui->charViewBoxPlot->setLayout(baseLayout2);
     }else{
-        ui->charViewBoxPlot->layout()->activate();
+        ui->charViewBoxPlot->layout()->destroyed();
+        ui->charViewBoxPlot->setLayout(baseLayout2);
     }
 
 }
@@ -465,7 +466,8 @@ void reportWidget::getWeekHistoryData(){
     if(ui->charViewPie->layout()==NULL){
         ui->charViewPie->setLayout(baseLayout);
     }else{
-        ui->charViewPie->layout()->activate();
+        ui->charViewPie->layout()->destroyed();
+        ui->charViewPie->setLayout(baseLayout);
     }
     //end
     //按当天时间算是night，deep night , morning or afternoon,做箱型图。
@@ -654,7 +656,8 @@ void reportWidget::getMonthHistoryData(){
     if(ui->charViewBar->layout()==NULL){
         ui->charViewBar->setLayout(barLayout);
     }else{
-        ui->charViewBar->layout()->activate();
+        ui->charViewBar->layout()->destroyed();
+        ui->charViewBar->setLayout(barLayout);
     }
     //end
     //按周统计时长，做饼图；start
@@ -849,8 +852,5 @@ QChart* reportWidget::createBarChart(QMap<int, QList<double> > qDateCat_t,QStrin
 
     chart->legend()->setVisible(true);
     chart->legend()->setAlignment(Qt::AlignBottom);
-
     return chart;
-
-
 }

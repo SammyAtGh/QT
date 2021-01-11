@@ -341,7 +341,6 @@ void MainWindow::setBackground()
     shadow->setColor(QColor("#444444"));
     shadow->setBlurRadius(10);
     ui->bgFrame->setGraphicsEffect(shadow);
-
 }
 //设置table
 void MainWindow::initMusicTable()
@@ -832,17 +831,17 @@ void MainWindow::fuzzySearch(const QString &){
         if(countFuzzyWords>=15){
             break;
         }
-            for(int j=0;j<keyWords.size();j++){
+        for(int j=0;j<keyWords.size();j++){
 //                qDebug()<<"j: "<<j;
-                qDebug()<<queryData.size();
-                queryData[countFuzzyWords][keyWords[j]]=query.value(j).toString();
+            qDebug()<<queryData.size();
+            queryData[countFuzzyWords][keyWords[j]]=query.value(j).toString();
 //                qDebug()<<j;
 //                qDebug()<<keyWords[j];
 //                qDebug()<<query.value(j).toString();
-                if (j<3){
+            if (j<3){
 //                qDebug()<<queryData[countFuzzyWords][keyWords[j]];
-                }
             }
+        }
         countFuzzyWords+=1;
 
     }
