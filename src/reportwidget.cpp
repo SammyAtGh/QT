@@ -299,7 +299,7 @@ void reportWidget::getHistoryData(){
     if(ui->charViewBoxPlot->layout()==NULL){
         ui->charViewBoxPlot->setLayout(baseLayout2);
     }else{
-        ui->charViewBoxPlot->layout()->destroyed();
+        delete ui->charViewBoxPlot->layout();
         ui->charViewBoxPlot->setLayout(baseLayout2);
     }
 
@@ -336,9 +336,9 @@ void reportWidget::getWeekHistoryData(){
     qDataFrame qHourData;
     weekNameList<<"周一"<<"周二"<<"周三"<<"周四"<<"周五"<<"周六"<<"周日";
 //            qDataMap()<<("周一",0)<<("周一",0)<<("周二",0)<<("周三",0)<<("周四",0)<<("周五",0)<<("周六",0)<<("周日",0);
-    foreach(auto weekName,weekNameList){
-        weekListenTime.insert(weekName,0);
-    }
+//    foreach(auto weekName,weekNameList){
+//        weekListenTime.insert(weekName,0);
+//    }
     int listenMusicTotalCount = 0;
     int listenTimeTotal = 0;
     //计算所有听歌总数不再另开循环。
@@ -466,7 +466,7 @@ void reportWidget::getWeekHistoryData(){
     if(ui->charViewPie->layout()==NULL){
         ui->charViewPie->setLayout(baseLayout);
     }else{
-        ui->charViewPie->layout()->destroyed();
+        delete (ui->charViewPie->layout());
         ui->charViewPie->setLayout(baseLayout);
     }
     //end
@@ -656,7 +656,7 @@ void reportWidget::getMonthHistoryData(){
     if(ui->charViewBar->layout()==NULL){
         ui->charViewBar->setLayout(barLayout);
     }else{
-        ui->charViewBar->layout()->destroyed();
+        delete (ui->charViewBar->layout());
         ui->charViewBar->setLayout(barLayout);
     }
     //end
